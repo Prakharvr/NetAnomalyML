@@ -30,10 +30,11 @@ No  | <div style="width:100px">Library Name</div>| Version          | Descriptio
 1. Clone this repository.
 2. Install any missing libraries.
 3. Open **config.py** and set the required directory paths.
-> * **iot23_scenarios_dir** should point to the main folder containing the iot23 scenarios.
-> * **iot23_attacks_dir** will hold files for each type of attack from the scenarios.
-> * **iot23_data_dir** will be used for storing data extracted from attack files.
-> * **iot23_experiments_dir** will hold experiment files, including trained models and results (Excel files & charts).
+> base_path = 'E:\\machine-learning\\datasets\\iot23\\'
+> scenarios_directory = f'{base_path}1_scenarios\\'
+> attacks_directory = f'{base_path}2_attacks\\'
+> data_directory = f'{base_path}3_data_v2\\'
+> experiments_directory = f'{base_path}4_experiments_v2\\'
 4. Verify your configuration by running **run_step00_configuration_check.py**
 > Ensure the output message indicates that you can proceed to the next step. If not, check your configuration and resolve any issues.
 
