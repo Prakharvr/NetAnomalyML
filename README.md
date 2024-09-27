@@ -44,7 +44,7 @@ Execute data extraction by running **run_step01_extract_data_from_scenarios.py**
 > Thus, we will separate entries of similar types into distinct files.
 > The output files will be saved to **iot23_attacks_dir**.
 >
-> ⚠️ Expect this step to take about 2 hours to complete.
+> Expect this step to take about 2 hours to complete.
 
 ### 3.2. Shuffle File Content
 Run content shuffling by executing **run_step01_shuffle_file_content.py**
@@ -52,7 +52,7 @@ Run content shuffling by executing **run_step01_shuffle_file_content.py**
 > Larger files are divided into 1 GB partitions, and the contents of all partitions (from the same file) are shuffled. 
 > Once shuffling is complete, the partitions are merged back into a single file, replacing the original.
 > 
-> ⚠️ This step is expected to take approximately 2.5 to 3 hours.
+>  This step is expected to take approximately 2.5 to 3 hours.
 
 ----
 
@@ -82,7 +82,7 @@ Run content shuffling by executing **run_step01_shuffle_file_content.py**
 > 3. [Prepare Data for Machine Learning](#3-prepare-data-for-machine-learning)
 
 #### 2.2. Execute designed experiments by running **run_experiments.py**
-> ⚠️⚠️⚠️ **This step is anticipated to take around 24 hours to complete!**
+>  **This step is anticipated to take around 24 hours to complete!**
 >  
 > The data samples for training and testing include over **20M** records.
 
