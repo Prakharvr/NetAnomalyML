@@ -1,6 +1,4 @@
-base_path = 'E:\\machine-learning\\datasets\\iot23\\'
-scenarios_directory = f'{base_path}1_scenarios\\'
-attacks_directory = f'{base_path}2_attacks\\'
-data_directory = f'{base_path}3_data_v2\\'
-experiments_directory = f'{base_path}4_experiments_v2\\'
-
+iot23_scenarios_dir = 'E:\\machine-learning\\datasets\\iot23\\1_scenarios\\'
+iot23_attacks_dir = 'E:\\machine-learning\\datasets\\iot23\\2_attacks\\'
+iot23_data_dir = 'E:\\machine-learning\\datasets\\iot23\\3_data_v2\\'
+iot23_experiments_dir = 'E:\\machine-learning\\datasets\\iot23\\4_experiments_v2\\'
